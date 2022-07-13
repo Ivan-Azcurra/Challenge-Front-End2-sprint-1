@@ -1,0 +1,26 @@
+.sobre-mi{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 9.5rem;
+    margin-right: 9.5rem;
+}
+
+.sobre-mi__description{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sobre-mi__description--container{
+    padding-left: 20px;
+}
+
+.sobre-mi__description--list{
+    display: flex;
+}
+
+.sobre-mi__description--img{
+    width: 368px;
+    height: 368px;
+    border-radius: 50%;
+}
