@@ -7,52 +7,315 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/main-styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/main-styles.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/logo/logo.css">
     <link rel="stylesheet" href="./assets/css/menu/menu.css">
     <link rel="stylesheet" href="./assets/css/sobre-mi/sobre-mi.css">
+    <link rel="stylesheet" href="./assets/css/sobre-mi/biografia.css">
+    <link rel="stylesheet" href="./assets/css/skills/skills.css">
+    <link rel="stylesheet" href="./assets/css/hobbies/hobbies.css">
+    <link rel="stylesheet" href="assets/css/formacion/formacion.css">
+    <link rel="stylesheet" href="./assets/css/experience/experience.css">
+    <link rel="stylesheet" href="./assets/css/contacto/contacto.css">
     <title>Portafolio Personal</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="header__logo">
-            <img class="header__logo--img" src="./assets/img/auto_awesome_black_24dp 1.png" alt="Logo de Portafolio">
-            <p class="header__logo--name">ivan azcurra</p>
-        </div>
+    <main>
 
-        <nav class="header__menu">
-            <ul class="header__menu--list">
-                <li class="header__menu--item"><a class="header__menu--link" href="#">sobre mi</a></li>
-                <li class="header__menu--item"><a class="header__menu--link" href="#">skills</a></li>
-                <li class="header__menu--item"><a class="header__menu--link" href="#">hobbies</a></li>
-                <li class="header__menu--item"><a class="header__menu--link" href="#">formación</a></li>
-                <li class="header__menu--item"><a class="header__menu--link" href="#">proyectos</a></li>
-                <li class="header__menu--item"><a class="header__menu--link" href="#">ivan@hotmail.com</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section class="sobre-mi">
-        <div class="sobre-mi__description">
-            <div class="sobre-mi__description--container">
-                <h1 class="sobre-mi__description--title">Hola, mi nombre es Ivan Azcurra y construyo paginas web</h1>
-                <p class="sobre-mi__description--text">Soy formada en .... lorem ipsum sit amet consectetur y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
-                <ul class="sobre-mi__description--list">
-                    <li class="sobre-mi__description--item"><a class="sobre-mi__description--link" href="#"></a>github</li>
-                    <li class="sobre-mi__description--item"><a class="sobre-mi__description--link" href="#"></a>linkedin</li>
-                    <li class="sobre-mi__description--item"><a class="sobre-mi__description--link" href="#"></a>instagram</li>
-                    <li class="sobre-mi__description--item"><a class="sobre-mi__description--link" href="#"></a>curriculo</li>
-                </ul>
+        <header class="header">
+            <div class="header__container">
+              
+                    <div class="header__logo">
+                        <img class="header__logo--img" src="./assets/img/auto_awesome_black_24dp 1.png"
+                            alt="Logo de Portafolio">
+                        <p class="header__logo--name">ivan azcurra</p>
+                    </div>
+        
+
+                <nav class="header__menu">
+                    <ul class="header__menu--list">
+                        <li class="header__menu--item"><a class="header__menu--link" href="#sobre_mi">sobre mi</a></li>
+                        <li class="header__menu--item"><a class="header__menu--link" href="#skills">skills</a></li>
+                        <li class="header__menu--item"><a class="header__menu--link" href="#hobbies">hobbies</a></li>
+                        <li class="header__menu--item"><a class="header__menu--link" href="#formacion">formación</a></li>
+                        <li class="header__menu--item"><a class="header__menu--link" href="#proyectos">proyectos</a></li>
+                        <li class="header__menu--item"><a class="header__menu--link" id="bold"
+                                href="mailto:azcurrita93@gmail.com">azcurrita93@gmail.com</a></li>
+                    </ul>
+                </nav>
             </div>
-            <img class="sobre-mi__description--img" src="./assets/img/ivan.jpg" alt="Foto de Perfil">
+        </header>
+
+        <section id="sobre_mi" class="sobre-mi__section">
+            <div class="sobre-mi">
+                <div class="sobre-mi__description">
+                    <div class="sobre-mi__description--container">
+                        <h1 class="sobre-mi__description--title">Hola, mi nombre es Ivan Azcurra y construyo paginas web
+                        </h1>
+                        <p class="sobre-mi__description--text">Soy formada en .... lorem ipsum sit amet consectetur y
+                            actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
+                        <ul class="sobre-mi__description--list">
+                            <li class="sobre-mi__description--item">
+                                <a class="sobre-mi__description--link"
+                                href="https://github.com/Ivan-Azcurra" target="_blank">github</a>
+                                <img class="sobre-mi__description--img" src="./assets/img/arrow_back_black_24dp 1.png" alt="flecha negra">
+                                </li>
+                            <li class="sobre-mi__description--item">
+                                <a class="sobre-mi__description--link"
+                                href="https://www.linkedin.com/in/ivan-azcurra-8781481aa/" target="_blank">linkedin</a>
+                                <img class="sobre-mi__description--img" src="./assets/img/arrow_back_black_24dp 1.png" alt="flecha negra">
+                                </li>
+                            <li class="sobre-mi__description--item">
+                                <a class="sobre-mi__description--link"
+                                href="#">instagram</a>
+                                <img class="sobre-mi__description--img" src="./assets/img/arrow_back_black_24dp 1.png" alt="flecha negra">
+                                </li>
+                            <li class="sobre-mi__description--item">
+                                <a class="sobre-mi__description--link"
+                                href="#">curriculo</a>
+                                <img class="sobre-mi__description--img" src="./assets/img/arrow_back_black_24dp 1.png" alt="flecha negra">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sobre-mi__description--img-container">
+                </div>
+
+            </div>
+        </section>
+
+        <section class="biografia__container">
+            <article class="biografia">
+                <h2 class="biografia__title">sobre mi</h2>
+                <p class="biografia__texto">Nací un 3 de noviembre de 1996 en Chepes, La Rioja - Argentina. Mi madre
+                    Graciela Mercado y mi padre Oscar Azcurra, me criaron con mucho amor y esfuerzo. Soy el menor de 3
+                    hermanos, Mariana, la mayor y Eduardo el de en medio. Desde temprana edad me dio mucho interés el
+                    mundo de las computadoras y la tecnología en general. Me gusta pasar tiempo con amigos, ver series,
+                    leer algún libro. Siempre dispuesto a aprender cosas nuevas. Y creo que eso es todo. ¡Un saludo!</p>
+                <div class="biografia__firma"></div>
+            </article>
+        </section>
+
+        <section id="skills" class="skills">
+            <h1 class="skills__title">skills</h1>
+            <div class="skills__container">
+                <div class="skill__cards">
+                    <img class="skills__cards--icon" src="./assets/img/skills-img/html5.png" alt="Icono HTML5">
+                    <h3 class="skills__cards--title">Html 5</h3>
+                </div>
+                <div class="skill__cards">
+                    <img class="skills__cards--icon" src="./assets/img/skills-img/javascript.png"
+                        alt="Icono Javascript">
+                    <h3 class="skills__cards--title">Javascript</h3>
+                </div>
+                <div class="skill__cards">
+                    <img class="skills__cards--icon" src="./assets/img/skills-img/php.png" alt="Icono Javascript">
+                    <h3 class="skills__cards--title">PHP</h3>
+                </div>
+                <div class="skill__cards">
+                    <img class="skills__cards--icon" src="./assets/img/skills-img/node.png" alt="Icono Javascript">
+                    <h3 class="skills__cards--title">Node JS</h3>
+                </div>
+                <div class="skill__cards">
+                    <img class="skills__cards--icon" src="./assets/img/skills-img/reactreact.png"
+                        alt="Icono Javascript">
+                    <h3 class="skills__cards--title">React</h3>
+                </div>
+                <div class="skill__cards">
+                    <img class="skills__cards--icon" src="./assets/img/skills-img/css-file 1css.png"
+                        alt="Icono Javascript">
+                    <h3 class="skills__cards--title">CSS</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="hobbies" class="hobbies">
+            <h1 class="hobbies__title">hobbies</h1>
+            <div class="hobbies__container">
+                <div class="hobbies__cards">
+                    <img class="hobbies__cards--icon" src="./assets/img/hobbies-img/bicycle-solid.jpg" alt="bicicleta">
+                    <h3 class="hobbies__cards--title">bicicleta</h3>
+                </div>
+                <div class="hobbies__cards">
+                    <img class="hobbies__cards--icon" src="./assets/img/hobbies-img/drum-solid.jpg" alt="bateria">
+                    <h3 class="hobbies__cards--title">tocar bateria</h3>
+                </div>
+                <div class="hobbies__cards">
+                    <img class="hobbies__cards--icon" src="./assets/img/hobbies-img/headphones_black_24dp 1musica.png"
+                        alt="auriculares">
+                    <h3 class="hobbies__cards--title">oir musica</h3>
+                </div>
+                <div class="hobbies__cards">
+                    <img class="hobbies__cards--icon" src="./assets/img/hobbies-img/tv_black_24dp 1.png"
+                        alt="televisor">
+                    <h3 class="hobbies__cards--title">ver series</h3>
+                </div>
+                <div class="hobbies__cards">
+                    <img class="hobbies__cards--icon" src="./assets/img/hobbies-img/car-solid.jpg" alt="automovil">
+                    <h3 class="hobbies__cards--title">conducir</h3>
+                </div>
+                <div class="hobbies__cards">
+                    <img class="hobbies__cards--icon" src="./assets/img/hobbies-img/photo_camera_black_24dp 1.png"
+                        alt="camara de fotos">
+                    <h3 class="hobbies__cards--title">tomar fotos</h3>
+                </div>
+            </div>
+        </section>
+        <section id="formacion" class="formacion__container">
+            <div class="formacion">
+                <h1 class="formacion__title">formación académica</h1>
+                <div class="formacion__cards--container">
+                    <div class="formacion__cards">
+                        <img src="assets/img/formacion-img/logo-mumuki-alt.png" alt="logo de mumuki"
+                            class="formacion__cards--img" id="mumuki">
+                        <h4 class="formacion__card--info-mumuki"> Argentina Programa</h4>
+                        <p class="formacion__card--text">Febrero - Abril 2022</p>
+                    </div>
+                    <div class="formacion__cards">
+                        <img src="assets/img/formacion-img/Imagem.png" alt="logo de alura"
+                            class="formacion__cards--img">
+                        <h4 class="formacion__card--info">Formacion Principiante en Programacion</h4>
+                        <p class="formacion__card--text">Junio - 2022</p>
+                    </div>
+                    <div class="formacion__cards">
+                        <img src="assets/img/formacion-img/crehana.png" alt="logo de crehana"
+                            class="formacion__cards--img" id="crehana">
+                        <h4 class="formacion__card--info mumuki-text">Introducción al Desarrollo Web front end: HTML y
+                            CSS</h4>
+                        <p class="formacion__card--text">Junio - 2021</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="experience">
+            <h1 class="experience__title">experiencia profesional</h1>
+            <div class="experience__container">
+                <div class="experience__item">
+                    <div class="item__img--container">
+                        <img src="./assets/img/experience-img/encriptador-de-texto.jpg"
+                            alt="imagen encriptador de texto" class="experience__item--img">
+                    </div>
+                    <div class="item__info--container">
+                        <h4 class="experience__item--title">encriptador de texto</h4>
+                        <p class="experience__item--info">challenge oracle</p>
+                        <div class="experience__buttons">
+                            <a class="experience__item--button-light" href="https://github.com/Ivan-Azcurra/Challenge-Oracle-ONE---Encriptador-de-texto.github.io" target="_blank">repositório</a>
+                            <a class="experience__item--button" href="https://ivan-azcurra.github.io/Challenge-Oracle-ONE---Encriptador-de-texto.github.io/" target="_blank">ver demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience__item reverse seperation-top">
+                    <div class="item__img--container">
+                        <img src="./assets/img/experience-img/juego-de-ahorcado.jpg" alt="imagen juego del ahorcado"
+                            class="experience__item--img">
+                    </div>
+                    <div class="item__info--container">
+                        <h4 class="experience__item--title">juego creado con html, css y javaScript</h4>
+                        <p class="experience__item--info">challenge oracle</p>
+                        <div class="experience__buttons">
+                            <a class="experience__item--button-light" href="#">repositório</a>
+                            <a class="experience__item--button" href="#">ver demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="contact__container">
+                <div class="contact__container--img">
+                    <img src="./assets/img/contacto/telefono-contacto.png " alt="telefono" class="contact__img">
+                </div>
+                <div class="contact__container--form">
+                    <form action="" class="contact__form">
+                        <legend class="contact__title">contacto</legend>
+                        <p class="contact__text">¿Quieres contactarme?</p>
+                        <p class="contact__text">Complete el siguiente formulario y me pondré en contacto con usted lo
+                            antes posible.</p>
+
+                        <div class="form__container">
+                            <div class="form__group">
+                                <input type="text" id="name" class="form__input" placeholder=" ">
+                                <label for="name" class="form__label">Nombre:</label>
+                                <span class="form__line"></span>
+                            </div>
+                        </div>
+
+                        <div class="form__container">
+                            <div class="form__group">
+                                <input type="text" id="email" class="form__input" placeholder=" ">
+                                <label for="email" class="form__label">Email:</label>
+                                <span class="form__line"></span>
+                            </div>
+                        </div>
+
+                        <div class="form__container">
+                            <div class="form__group">
+                                <input type="text" id="asunto" class="form__input" placeholder=" ">
+                                <label for="asunto" class="form__label">Asunto:</label>
+                                <span class="form__line"></span>
+                            </div>
+                        </div>
+
+
+                        <div class="form__container">
+                            <div class="form__group">
+                                <textarea type="text" id="mensaje" class="form__textarea" placeholder=" "></textarea>
+                                <label for="mensaje" class="form__label">Mensaje:</label>
+                                <span class="form__line"></span>
+                            </div>
+                        </div>
+
+                        <input class="form__submit" type="submit" value="enviar mensaje">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container--text">
+            <p class="footer__text">Desarrolado por Ivan Azcurra</p>
+            <p class="footer__text">2022</p>
+
         </div>
-      
-    </section>
+    </footer>
+    <!-- Smooth Scroll -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+            scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+        });
+        } // End if
+    });
+    });
+    </script>
 </body>
 
 </html>

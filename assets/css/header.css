@@ -1,7 +1,32 @@
-.header{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 9.5rem;
-    margin-right: 9.5rem;
-    padding-top: 35px;
+.header {
+  background-color: var(--bakcground-claro);
+  width: 100%;
 }
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 9.5rem;
+  margin-right: 9.5rem;
+  padding-top: 35px;
+}
+
+.header__logo--name {
+  color: var(--texto-principal);
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.header__menu--link {
+  color: var(--texto-principal);
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.header__menu--link#bold{
+  font-weight: 900;
+  text-transform: none;
+} 

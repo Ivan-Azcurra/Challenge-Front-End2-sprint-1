@@ -1,3 +1,25 @@
+:root{
+    --texto-principal: #464646;
+    --bakcground-claro: #EDEDED;
+    --background-celeste: #EAF2FD;
+}
+
 body{
     font-family: 'Raleway', sans-serif;
+    background-color: var(--bakcground-claro);
 }
+
+.footer{
+    text-align: center;
+}
+
+.footer__container--text{
+    padding: 32px 0;
+    background-color: #FFF;
+}
+
+.footer__text{
+    font-weight: 500;
+    color: var(--texto-principal);
+}
+
