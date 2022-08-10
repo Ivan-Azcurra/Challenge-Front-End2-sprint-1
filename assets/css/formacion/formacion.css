@@ -7,6 +7,7 @@
     padding: 4rem 9.5rem 10rem 9.5rem;
 }
 
+
 .formacion__title {
     color: var(--texto-principal);
     text-align: center;
@@ -58,4 +59,42 @@
 
 .formacion__card--text{
     font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    .formacion__container{
+        padding: 1rem 1.5rem 5rem 1.5rem;
+    }
+
+    .formacion{
+        padding: 1rem 2.5rem 5rem 0;
+    }
+
+
+    .formacion__title{
+        font-size: 22px;
+        margin-top: 0;
+    }
+
+    .formacion__cards{
+        width: 224px;
+        height: 118px;
+    }
+
+    .formacion__cards--img#mumuki{
+        padding-bottom: 0;
+    }
+
+    .formacion__card--info-mumuki{
+        font-size: 16px;
+        margin-bottom: 1.4rem;
+    }
+
+    .formacion__cards--img#crehana{
+        padding-bottom: 0;
+    }
+
+    .formacion__card--info{
+        font-size: 16px;
+    }
 }

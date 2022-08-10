@@ -67,3 +67,28 @@
   background: url(../../img/ivan.jpg) center/cover no-repeat;
   border-radius: 50%;;
 }
+
+@media screen and (max-width: 768px){
+  .sobre-mi{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .sobre-mi__description{
+    padding-top: 1rem;
+  }
+
+  .sobre-mi__description--title {
+    font-size: 22px;
+  }
+
+  .sobre-mi__description--text{
+    font-size: 16px;
+  }
+
+  .sobre-mi__description--img-container{
+    margin-top: 0.5rem;
+    height: 170px;
+    width: 170px;
+  }
+}

@@ -42,3 +42,17 @@
     margin-left: 16px;
     text-transform: capitalize;
 }
+
+@media screen and (max-width: 768px){
+    .hobbies__container{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        flex-wrap: wrap;
+    }
+
+    .hobbies__cards{
+        width: 224px;
+        height: 118px;
+        margin-bottom: 32px;
+    }
+}

@@ -151,3 +151,39 @@
 .form__submit:hover{
  background-color: #0f4182;
 }
+
+@media screen and (max-width: 768px){
+    .contact{
+        padding: 2rem 1.5rem 2rem 1.5rem;
+        width: 100%;
+    }
+
+    .contact__container{
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 2.5rem;
+    }
+    
+
+    .contact__container--img{
+        width: 0%;
+    }
+    
+    .contact__img{
+        display: none;
+        width: 0%;
+    }
+
+    .contact__title{
+        font-size: 22px;
+    }
+
+    .contact__container--form{
+        width: 100%;
+    }
+
+    .contact__form{
+        margin-left: 0;
+        padding-right: 1rem;
+    }
+}

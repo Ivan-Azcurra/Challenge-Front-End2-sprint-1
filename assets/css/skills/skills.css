@@ -42,3 +42,17 @@
     margin-bottom: 16px;
     margin-left: 16px;
 }
+
+@media screen and (max-width: 768px){
+    .skills__container{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        flex-wrap: wrap;
+    }
+
+    .skill__cards{
+        width: 224px;
+        height: 118px;
+        margin-bottom: 32px;
+    }
+}

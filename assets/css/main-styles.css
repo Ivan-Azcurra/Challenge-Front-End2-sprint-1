@@ -11,15 +11,22 @@ body{
 
 .footer{
     text-align: center;
+    width: 100%;
 }
 
 .footer__container--text{
-    padding: 32px 0;
+    padding: 32px;
     background-color: #FFF;
 }
 
 .footer__text{
     font-weight: 500;
     color: var(--texto-principal);
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
 }
 

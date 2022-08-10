@@ -1,9 +1,6 @@
 .biografia__container{
     width: 100%;
     background-color: var(--background-celeste);
-}
-
-.biografia{
     padding: 4rem 9.5rem 4rem 9.5rem;
 }
 
@@ -26,4 +23,22 @@
     height: 52px;
     background: url(../../img/firma.png);
     margin-top: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .biografia__container{
+        padding: 2rem 1.5rem 2rem 1.5rem;
+    }
+
+    .biografia{
+        padding-right: 2.5rem;
+    }
+
+    .biografia__title{
+        font-size: 22px;
+    }
+
+    .biografia__text{
+        font-size: 14px;
+    }
 }

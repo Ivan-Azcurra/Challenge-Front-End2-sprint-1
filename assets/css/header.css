@@ -30,3 +30,25 @@
   font-weight: 900;
   text-transform: none;
 } 
+
+
+@media screen and (max-width: 768px){
+  .header__container{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .header__menu--link:not([href="mailto:azcurrita93@gmail.com"]){
+    display: none;
+  }
+
+  .header__menu--item:last-child{
+    position: absolute;
+    right: 10px;
+    top: 35px;
+  }
+
+  .header__logo{
+   position: absolute;
+  }
+}
