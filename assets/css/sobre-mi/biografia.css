@@ -1,7 +1,12 @@
+.biografia{
+    margin-right: 9.5rem;
+    margin-left: 9.5rem;
+}
+
 .biografia__container{
     width: 100%;
     background-color: var(--background-celeste);
-    padding: 4rem 9.5rem 4rem 9.5rem;
+    padding: 4rem 0;
 }
 
 .biografia__title{
@@ -27,11 +32,12 @@
 
 @media screen and (max-width: 768px) {
     .biografia__container{
-        padding: 2rem 1.5rem 2rem 1.5rem;
+        padding: 2rem 0;
     }
 
     .biografia{
-        padding-right: 2.5rem;
+        margin-right: 2.5rem;
+        margin-left: 1.5rem;
     }
 
     .biografia__title{
