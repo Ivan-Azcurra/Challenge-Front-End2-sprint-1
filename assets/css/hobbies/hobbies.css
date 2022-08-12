@@ -56,3 +56,20 @@
         margin-bottom: 32px;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .hobbies{
+        margin-bottom: 1rem;
+    }
+    
+
+    .hobbies__container{
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        justify-content: space-around;
+    }
+
+    .hobbies__cards{
+        width: 156px;
+    }
+}

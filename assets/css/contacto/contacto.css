@@ -187,3 +187,15 @@
         padding-right: 1rem;
     }
 }
+
+/* Diseño responsive mobile */
+
+@media screen and (max-width: 375px){
+    .contact{
+        padding: 2rem 0.5rem 2rem 0.5rem;
+    }
+
+    .contact__container{
+        padding-right: 1.5rem;
+    }
+}

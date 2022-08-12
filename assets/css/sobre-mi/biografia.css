@@ -48,3 +48,11 @@
         font-size: 14px;
     }
 }
+
+/* Diseño responsive mobile */
+@media screen and (max-width: 375px){
+    .biografia{
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+    }
+}

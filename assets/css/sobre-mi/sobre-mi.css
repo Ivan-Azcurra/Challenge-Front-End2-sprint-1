@@ -1,5 +1,4 @@
 .sobre-mi {
-
   width: auto;
   display: flex;
   justify-content: space-between;
@@ -8,10 +7,10 @@
   margin-top: 64px;
 }
 
-.sobre-mi__section{
-    width: 100%;
-    background-color: var(--bakcground-claro);
-    margin-bottom: 2rem;
+.sobre-mi__section {
+  width: 100%;
+  background-color: var(--bakcground-claro);
+  margin-bottom: 2rem;
 }
 
 .sobre-mi__description {
@@ -44,7 +43,7 @@
   display: flex;
 }
 
-.sobre-mi__description--item{
+.sobre-mi__description--item {
   display: flex;
   align-items: center;
   margin-right: 32px;
@@ -57,24 +56,24 @@
   text-decoration: none;
 }
 
-.sobre-mi__description--item:hover{
+.sobre-mi__description--item:hover {
   border-bottom: 2px solid #000;
 }
 
-.sobre-mi__description--img-container{
+.sobre-mi__description--img-container {
   height: 350px;
   width: 350px;
   background: url(../../img/ivan.jpg) center/cover no-repeat;
-  border-radius: 50%;;
+  border-radius: 50%;
 }
 
-@media screen and (max-width: 768px){
-  .sobre-mi{
+@media screen and (max-width: 768px) {
+  .sobre-mi {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
 
-  .sobre-mi__description{
+  .sobre-mi__description {
     padding-top: 1rem;
   }
 
@@ -82,13 +81,38 @@
     font-size: 22px;
   }
 
-  .sobre-mi__description--text{
+  .sobre-mi__description--text {
     font-size: 16px;
   }
 
-  .sobre-mi__description--img-container{
+  .sobre-mi__description--img-container {
     margin-top: 0.5rem;
     height: 170px;
     width: 170px;
+  }
+}
+
+/* Diseño responsive mobile 375px */
+
+@media screen and (max-width: 375px) {
+  .sobre-mi {
+    flex-direction: column-reverse;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .sobre-mi__description{
+    width: 100%;
+    display: block;
+    text-align: initial;
+  }
+
+  .sobre-mi__description--list{
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .sobre-mi__description--item {
+    margin-right: 2px;
   }
 }

@@ -98,3 +98,46 @@
         font-size: 16px;
     }
 }
+
+/* Diseño responsive mobile */
+
+@media screen and (max-width: 375px) {
+   
+    .formacion__container{
+        padding: 1rem 1rem;
+    }
+    .formacion__title{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .formacion__cards--container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: unset;
+    }
+
+    .formacion__cards{
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 3.5rem;
+    }
+
+    .formacion__card--info-mumuki{
+        margin-bottom: 0.5rem;
+    }
+
+    .formacion__card--info{
+        margin-bottom: 0.5rem;
+    }
+
+    .formacion__cards--img{
+        margin-bottom: 0.5rem;
+        padding-left: 25%;
+    }
+
+    .formacion__cards--img#mumuki{
+        padding-left: 30%;
+    }
+
+}

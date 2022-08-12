@@ -56,3 +56,20 @@
         margin-bottom: 32px;
     }
 }
+
+@media screen and (max-width: 375px){
+    .skills{
+        margin-bottom: 1rem;
+    }
+
+
+    .skills__container{
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        justify-content: space-around;
+    }
+
+    .skill__cards{
+        width: 156px;
+    }
+}
