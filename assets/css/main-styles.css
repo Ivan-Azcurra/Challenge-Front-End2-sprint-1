@@ -24,7 +24,27 @@ body{
     color: var(--texto-principal);
 }
 
+
+.mensaje-error{
+    display: block;
+    color: #F00;
+    margin-top: 10px;
+}
+
+.oculto{
+    display: none;
+}
+/* Diseño responsive tablet */
+
 @media screen and (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
+}
+
+/* Diseño responsive mobile */
+
+@media screen and (max-width: 375px) {
     body{
         overflow-x: hidden;
     }

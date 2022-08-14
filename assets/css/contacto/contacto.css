@@ -72,6 +72,21 @@
     margin-top: 0.5rem;
 }
 
+.form__input--error{
+    width: 100%;
+    height: 56px;
+    border-radius: 5px;
+    background: #FFF;
+    color: #706c6c;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 8px;
+    padding-top: 8px;
+    border: 1px solid #F00;
+    outline: none;
+    margin-top: 0.5rem;
+}
+
 .form__input:focus + .form__label,
 .form__input:not(:placeholder-shown) + .form__label{
     transform: translateY(8px) scale(.8);
@@ -151,6 +166,8 @@
 .form__submit:hover{
  background-color: #0f4182;
 }
+
+/* Diseño responsive tablet */
 
 @media screen and (max-width: 768px){
     .contact{

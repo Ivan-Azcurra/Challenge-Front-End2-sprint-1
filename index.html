@@ -32,21 +32,23 @@
 
         <header class="header">
             <div class="header__container">
-              
-                    <div class="header__logo">
-                        <img class="header__logo--img" src="./assets/img/auto_awesome_black_24dp 1.png"
-                            alt="Logo de Portafolio">
-                        <p class="header__logo--name">ivan azcurra</p>
-                    </div>
-        
+
+                <div class="header__logo">
+                    <img class="header__logo--img" src="./assets/img/auto_awesome_black_24dp 1.png"
+                        alt="Logo de Portafolio">
+                    <p class="header__logo--name">ivan azcurra</p>
+                </div>
+
 
                 <nav class="header__menu">
                     <ul class="header__menu--list">
                         <li class="header__menu--item"><a class="header__menu--link" href="#sobre_mi">sobre mi</a></li>
                         <li class="header__menu--item"><a class="header__menu--link" href="#skills">skills</a></li>
                         <li class="header__menu--item"><a class="header__menu--link" href="#hobbies">hobbies</a></li>
-                        <li class="header__menu--item"><a class="header__menu--link" href="#formacion">formación</a></li>
-                        <li class="header__menu--item"><a class="header__menu--link" href="#proyectos">proyectos</a></li>
+                        <li class="header__menu--item"><a class="header__menu--link" href="#formacion">formación</a>
+                        </li>
+                        <li class="header__menu--item"><a class="header__menu--link" href="#proyectos">proyectos</a>
+                        </li>
                         <li class="header__menu--item"><a class="header__menu--link" id="bold"
                                 href="mailto:azcurrita93@gmail.com">azcurrita93@gmail.com</a></li>
                     </ul>
@@ -60,28 +62,31 @@
                     <div class="sobre-mi__description--container">
                         <h1 class="sobre-mi__description--title">Hola, mi nombre es Ivan Azcurra y construyo paginas web
                         </h1>
-                        <p class="sobre-mi__description--text">Soy formada en .... lorem ipsum sit amet consectetur y
+                        <p class="sobre-mi__description--text">Soy formado en .... lorem ipsum sit amet consectetur y
                             actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
                         <ul class="sobre-mi__description--list">
                             <li class="sobre-mi__description--item">
-                                <a class="sobre-mi__description--link"
-                                href="https://github.com/Ivan-Azcurra" target="_blank">github</a>
-                                <img class="sobre-mi__description--img" src="./assets/img/arrow_back_black_24dp 1.png" alt="flecha negra">
-                                </li>
+                                <a class="sobre-mi__description--link" href="https://github.com/Ivan-Azcurra"
+                                    target="_blank">github</a>
+                                <img class="sobre-mi__description--img" src="./assets/img/arrow_back_black_24dp 1.png"
+                                    alt="flecha negra">
+                            </li>
                             <li class="sobre-mi__description--item">
                                 <a class="sobre-mi__description--link"
-                                href="https://www.linkedin.com/in/ivan-azcurra-8781481aa/" target="_blank">linkedin</a>
-                                <img class="sobre-mi__description--img" src="./assets/img/arrow_back_black_24dp 1.png" alt="flecha negra">
-                                </li>
+                                    href="https://www.linkedin.com/in/ivan-azcurra-8781481aa/"
+                                    target="_blank">linkedin</a>
+                                <img class="sobre-mi__description--img" src="./assets/img/arrow_back_black_24dp 1.png"
+                                    alt="flecha negra">
+                            </li>
                             <li class="sobre-mi__description--item">
-                                <a class="sobre-mi__description--link"
-                                href="#">instagram</a>
-                                <img class="sobre-mi__description--img" src="./assets/img/arrow_back_black_24dp 1.png" alt="flecha negra">
-                                </li>
+                                <a class="sobre-mi__description--link" href="#">instagram</a>
+                                <img class="sobre-mi__description--img" src="./assets/img/arrow_back_black_24dp 1.png"
+                                    alt="flecha negra">
+                            </li>
                             <li class="sobre-mi__description--item">
-                                <a class="sobre-mi__description--link"
-                                href="#">curriculo</a>
-                                <img class="sobre-mi__description--img" src="./assets/img/arrow_back_black_24dp 1.png" alt="flecha negra">
+                                <a class="sobre-mi__description--link" href="#">curriculo</a>
+                                <img class="sobre-mi__description--img" src="./assets/img/arrow_back_black_24dp 1.png"
+                                    alt="flecha negra">
                             </li>
                         </ul>
                     </div>
@@ -210,8 +215,12 @@
                         <h4 class="experience__item--title">encriptador de texto</h4>
                         <p class="experience__item--info">challenge oracle</p>
                         <div class="experience__buttons">
-                            <a class="experience__item--button-light" href="https://github.com/Ivan-Azcurra/Challenge-Oracle-ONE---Encriptador-de-texto.github.io" target="_blank">repositório</a>
-                            <a class="experience__item--button" href="https://ivan-azcurra.github.io/Challenge-Oracle-ONE---Encriptador-de-texto.github.io/" target="_blank">ver demo</a>
+                            <a class="experience__item--button-light"
+                                href="https://github.com/Ivan-Azcurra/Challenge-Oracle-ONE---Encriptador-de-texto.github.io"
+                                target="_blank">repositório</a>
+                            <a class="experience__item--button"
+                                href="https://ivan-azcurra.github.io/Challenge-Oracle-ONE---Encriptador-de-texto.github.io/"
+                                target="_blank">ver demo</a>
                         </div>
                     </div>
                 </div>
@@ -246,34 +255,38 @@
 
                         <div class="form__container">
                             <div class="form__group">
-                                <input type="text" id="name" class="form__input" placeholder=" ">
+                                <input type="text" id="name" class="form__input" placeholder=" " required data-tipo="nombre">
                                 <label for="name" class="form__label">Nombre:</label>
                                 <span class="form__line"></span>
+                                <span class="mensaje-error oculto">Error Default</span>
                             </div>
                         </div>
 
                         <div class="form__container">
                             <div class="form__group">
-                                <input type="text" id="email" class="form__input" placeholder=" ">
+                                <input type="email" id="email" class="form__input" placeholder=" " required data-tipo="email">
                                 <label for="email" class="form__label">Email:</label>
                                 <span class="form__line"></span>
+                                <span class="mensaje-error oculto">Error Default</span>
                             </div>
                         </div>
 
                         <div class="form__container">
                             <div class="form__group">
-                                <input type="text" id="asunto" class="form__input" placeholder=" ">
+                                <input type="text" id="asunto" class="form__input" placeholder=" " required data-tipo="asunto">
                                 <label for="asunto" class="form__label">Asunto:</label>
                                 <span class="form__line"></span>
+                                <span class="mensaje-error oculto">Error Default</span>
                             </div>
                         </div>
 
 
                         <div class="form__container">
                             <div class="form__group">
-                                <textarea type="text" id="mensaje" class="form__textarea" placeholder=" "></textarea>
+                                <textarea type="text" id="mensaje" class="form__textarea" placeholder=" " required data-tipo="mensaje"></textarea>
                                 <label for="mensaje" class="form__label">Mensaje:</label>
                                 <span class="form__line"></span>
+                                <span class="mensaje-error oculto">Error Default</span>
                             </div>
                         </div>
 
@@ -293,31 +306,33 @@
     <!-- Smooth Scroll -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
-    $(document).ready(function(){
-    // Add smooth scrolling to all links
-    $("a").on('click', function(event) {
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
 
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-        // Prevent default anchor click behavior
-        event.preventDefault();
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
 
-        // Store hash
-        var hash = this.hash;
+                    // Store hash
+                    var hash = this.hash;
 
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-            scrollTop: $(hash).offset().top
-        }, 800, function(){
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
 
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
         });
-        } // End if
-    });
-    });
     </script>
+    <script type="module" src="/js/validaciones.js"></script>
+    <script type="module" src="/js/app.js"></script>
 </body>
 
 </html>
