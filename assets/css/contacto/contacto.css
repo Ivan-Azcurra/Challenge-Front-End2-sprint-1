@@ -72,6 +72,23 @@
     margin-top: 0.5rem;
 }
 
+/* esto arregla el cambio de estilos del input por el autocompletado del navegador */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: none;
+  -webkit-text-fill-color: #706c6c;
+  -webkit-box-shadow: 0 0 0px 1000px #FFF inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
 .form__input--error{
     width: 100%;
     height: 56px;
@@ -106,7 +123,7 @@
     transition: transform .5s, red .3s;
 }
 
-.form__line{
+/* .form__line{
     position: absolute;
     bottom: 0;
     left: auto;
@@ -116,12 +133,12 @@
     transform: scale(0);
     transform: left bottom;
     transition: transform 0.5s;
-}
+} */
 
-.form__input:focus ~ .form__line,
+/* .form__input:focus ~ .form__line,
 .form__input:not(:placeholder-shown) ~ .form__line{
     transform: scale(1);
-}
+} */
 
 .form__textarea{
     width: 100%;
@@ -146,10 +163,10 @@
     color: var(--texto-principal);
 }
 
-.form__textarea:focus ~ .form__line,
+/* .form__textarea:focus ~ .form__line,
 .form__textarea:not(:placeholder-shown) ~ .form__line{
     transform: scale(1);
-}
+} */
 
 .form__submit{
     margin-top: 32px;

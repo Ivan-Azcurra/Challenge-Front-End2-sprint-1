@@ -2,9 +2,7 @@ export function valida(input) {
     // recibe el input donde se disparo el evento.
   const tipoDeInput = input.dataset.tipo;
 //   la variable "tipoDeInput", guarda el input segun el valor del atributo data
-  console.log(tipoDeInput);
-  console.log(input.validity.valid);
-
+ 
 
 //  cambio de estilos del input y muestra el mensaje correspondiente al error. 
   if(input.validity.valid/* accede a la propiedad validity.valid de los elementos input: si esta vacio se evual como "false" */){
@@ -19,13 +17,24 @@ export function valida(input) {
 }
 
 const tipoDeErroes = [
-    "valueMissing"
+    "valueMissing",
+    "typeMismatch",
 ];
 
 const mensajesDeError = {
   nombre: {
-    valueMissing: "Debe completar el campo nombre",
+    valueMissing: "Debe completar el campo: Nombre",
   },
+  email: {
+    valueMissing: "Debe completar el campo: Email",
+    typeMismatch: "El correo no es valido",
+  },
+  asunto: {
+    valueMissing: "Debe completar el campo: Asunto",
+  },
+  mensaje: {
+    valueMissing: "Debe completar el campo: Mensaje",
+  }
 };
 
 
