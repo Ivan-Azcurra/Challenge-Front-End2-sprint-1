@@ -8,17 +8,16 @@ export function valida(input) {
     if(input.id == 'mensaje'){
       // la setencia if de arriba valida si el input es el textarea
       input.parentElement.querySelector(".mensaje-error").innerHTML = "";
-      input.classList.toggle("form__textarea--error");
+      input.classList.remove("form__textarea--error");
     }
       input.parentElement.querySelector(".mensaje-error").innerHTML = "";
-      input.classList.toggle("form__input--error");
+      input.classList.remove("form__input--error");
   } else if(input.id == 'mensaje'){
-      input.classList.toggle("form__textarea--error");
+      input.classList.add("form__textarea--error");
       let span = input.parentElement.querySelector(".mensaje-error");span.classList.remove("oculto")
       span.innerHTML = mostrarMensajeDeError(tipoDeInput, input);
-      return
     } else {
-      input.classList.toggle("form__input--error");
+      input.classList.add("form__input--error");
       let span = input.parentElement.querySelector(".mensaje-error");span.classList.remove("oculto")
       span.innerHTML = mostrarMensajeDeError(tipoDeInput, input);
     //   esta funcion devuelve el mensaje correspondiente al tipo de error que tiene el input.
