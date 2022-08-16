@@ -2,13 +2,22 @@ export function valida(input) {
     // recibe el input donde se disparo el evento.
   const tipoDeInput = input.dataset.tipo;
 //   la variable "tipoDeInput", guarda el input segun el valor del atributo data
- 
 
 //  cambio de estilos del input y muestra el mensaje correspondiente al error. 
   if(input.validity.valid/* accede a la propiedad validity.valid de los elementos input: si esta vacio se evual como "false" */){
+    if(input.id == 'mensaje'){
+      // la setencia if de arriba valida si el input es el textarea
+      input.parentElement.querySelector(".mensaje-error").innerHTML = "";
+      input.classList.toggle("form__textarea--error");
+    }
       input.parentElement.querySelector(".mensaje-error").innerHTML = "";
       input.classList.toggle("form__input--error");
-  } else {
+  } else if(input.id == 'mensaje'){
+      input.classList.toggle("form__textarea--error");
+      let span = input.parentElement.querySelector(".mensaje-error");span.classList.remove("oculto")
+      span.innerHTML = mostrarMensajeDeError(tipoDeInput, input);
+      return
+    } else {
       input.classList.toggle("form__input--error");
       let span = input.parentElement.querySelector(".mensaje-error");span.classList.remove("oculto")
       span.innerHTML = mostrarMensajeDeError(tipoDeInput, input);
