@@ -104,8 +104,7 @@ select:-webkit-autofill:focus {
     margin-top: 0.5rem;
 }
 
-.form__input:focus + .form__label,
-.form__input:not(:placeholder-shown) + .form__label{
+.form__input:focus + .form__label,.form__label, .form__input:not(:placeholder-shown) + .form__label{
     transform: translateY(8px) scale(.8);
     transform-origin: left top;
     color: var(--texto-principal);

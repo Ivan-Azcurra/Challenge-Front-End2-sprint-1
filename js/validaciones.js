@@ -13,6 +13,7 @@ export function valida(input) {
       input.parentElement.querySelector(".mensaje-error").innerHTML = "";
       input.classList.remove("form__input--error");
   } else if(input.id == 'mensaje'){
+     // la setencia if de arriba valida si el input es el textarea
       input.classList.add("form__textarea--error");
       let span = input.parentElement.querySelector(".mensaje-error");span.classList.remove("oculto")
       span.innerHTML = mostrarMensajeDeError(tipoDeInput, input);
